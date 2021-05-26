@@ -1,15 +1,22 @@
 {
-  "name": "next-sentry-test",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "name": "next-sentry-test",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@sentry/nextjs": "^6.4.1",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "next-offline": "^5.0.5"
   }
 }
